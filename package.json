@@ -29,8 +29,8 @@
     ]
   },
   "lint-staged": {
-    "src/**/*.{js,jsx}": [
-      "eslint . --fix --max-warnings=0", "git add"
+    "*.js": [
+      "eslint --fix --max-warnings=0", "git add"
     ]
   },
   "husky": {
